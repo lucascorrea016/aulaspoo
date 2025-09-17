@@ -21,6 +21,7 @@ class Carro:
             print('O carro está aberto!')
         else:
             print('O carro já está aberto, ligado ou a chave está errada.')
+            
     def LigarCarro(self):
         if not self.ligado and self.aberto:
             self.ligado = True
